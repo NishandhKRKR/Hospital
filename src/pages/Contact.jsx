@@ -66,18 +66,18 @@ const Contact = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-2">First Name</label>
-                  <input type="text" placeholder="John" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" />
+                  <input type="text" placeholder="Enter Your First Name" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-2">Last Name</label>
-                  <input type="text" placeholder="Doe" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" />
+                  <input type="text" placeholder="Enter Your Last Name" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" />
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
-                  <input type="email" placeholder="john@example.com" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" />
+                  <input type="email" placeholder="Enter Your Email" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-2">Phone Number</label>
