@@ -222,7 +222,7 @@ const Home = () => {
             <Button to="/appointment" variant="secondary" className="py-4 px-8 text-lg">
               <Calendar className="mr-2 w-5 h-5" /> Book Appointment
             </Button>
-            <Button href="tel:1800MEDCARE" variant="outline" className="py-4 px-8 text-lg border-white text-white hover:bg-white hover:text-primary">
+            <Button href="tel:1800MEDCARE" variant="outline" className="py-4 px-8 text-lg border-white text-white hover:bg-white hover:!text-slate-900">
               <PhoneCall className="mr-2 w-5 h-5" /> Call 1-800-MEDCARE
             </Button>
           </div>

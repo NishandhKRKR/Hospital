@@ -31,7 +31,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
 
           {/* Right Actions */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center gap-2 text-slate-600">
               <Phone className="h-5 w-5 text-primary" />
               <span className="font-semibold">1-800-MEDCARE</span>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-slate-600 hover:text-primary transition-colors focus:outline-none"
@@ -80,7 +80,7 @@ const Navbar = () => {
 
       {/* Mobile Nav */}
       {isOpen && (
-        <div className="md:hidden glass absolute w-full left-0 top-20 border-b border-gray-200/50 shadow-xl">
+        <div className="lg:hidden glass absolute w-full left-0 top-20 border-b border-gray-200/50 shadow-xl">
           <div className="px-4 pt-2 pb-6 space-y-2">
             {navLinks.map((link) => (
               <Link
